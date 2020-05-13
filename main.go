@@ -96,7 +96,7 @@ func (c *OP) OutputFile(records [][]string) error {
 
 func (c *OP) OutputStdout(records [][]string) {
 	for idx, line := range records {
-		fmt.Printf("%d: %v\n", idx, strings.Join(line, ","))
+		fmt.Printf("%d: %v\n", idx+1, strings.Join(line, ","))
 	}
 }
 
