@@ -11,7 +11,7 @@ import (
 	"strings"
 )
 
-const helpStr = `version: 0.0.1, statistics cvs column range
+const helpStr = `version: 0.1, statistics cvs column range
 
 example: %s -in=input.csv -out=output.csv -column=3 -value=8888.88 -delta=6.66 -border=true
          will statistics 3'd column value, range [8888.88-6.66, 8888.88+6.66]
